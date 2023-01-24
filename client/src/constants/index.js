@@ -1,9 +1,6 @@
-export const surprisePrompts = [
+export const surpriseMePrompts = [
   'an armchair in the shape of an avocado',
-  'teddy bears lost in Japan',
-  'panda mad scientist mixing sparkling chemicals,digital art',
-  'a stained glass window depicting a hamburger and french fries',
-  'an armchair in the shape of an avocado',
+  'teddy bears lost in a Bamboo forest',
   'a surrealist dream-like oil painting by Salvador Dalí of a cat playing checkers',
   'teddy bears shopping for groceries in Japan, ukiyo-e',
   'an oil painting by Matisse of a humanoid robot playing chess',
