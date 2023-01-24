@@ -19,12 +19,12 @@ const CreatePost = () => {
   const handleSubmit = () => {}
 
   const handleChange = (e) => {
-    setForm({...form, [e.target.name] : e.target.value})
+    setForm({ ...form, [e.target.name]: e.target.value })
   }
 
   const handleSurpriseMe = () => {
     const randomPrompt = getRandomPrompt(form.prompt)
-    setForm({...form, prompt: randomPrompt})
+    setForm({ ...form, prompt: randomPrompt })
   }
 
   return (
@@ -56,7 +56,7 @@ const CreatePost = () => {
             isSurpriseMe
             handleSurpriseMe={handleSurpriseMe}
           />
-          <div className='relative bg-gray-50 border-2 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-black focus:border-black w-64 p-3 h-64 flex justify-center items-center'>
+          <div className='relative bg-gray-50 border-2 border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-black focus:border-black w-64  p-3 h-64 flex justify-center items-center'>
             {form.photo ? (
               <img
                 src={form.photo}
