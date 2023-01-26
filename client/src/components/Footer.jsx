@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <footer className='flex items-center justify-center m-5'>
       <small>
-        Made with <span className='text-red'>❤</span> by{' '}
+        Made with <span className='heart'>❤</span> by{' '}
         <a
           href='https://github.com/kuicpet'
           target='_blank'
