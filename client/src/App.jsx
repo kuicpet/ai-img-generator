@@ -1,6 +1,6 @@
 import React from 'react'
 import { Routes, Route } from 'react-router-dom'
-import { Header } from './components'
+import { Header, Footer } from './components'
 import { Home, CreatePost } from './pages'
 
 const App = () => {
@@ -13,6 +13,7 @@ const App = () => {
           <Route path='/create-post' element={<CreatePost />} />
         </Routes>
       </main>
+      <Footer />
     </>
   )
 }
